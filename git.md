@@ -12,10 +12,20 @@
 
 [Download](https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe)
 
+
 - Open the terminal (windows key + cmd)
 
+- To install the git using CLI
+
 ```
->git -v
+winget install --id Git.Git -e --source winget
+
+```
+
+- After the installation complete, open the new terminal and verify the git installed
+
+```
+git -v
 ```
 
 ## 1. Setup Git
